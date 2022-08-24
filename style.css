@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    margin: 20px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+.option{
+    text-align: center;
+    flex-basis: 250px;
+    height: 140px;
+    flex-shrink: 0;
+    padding: 15px;
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+}
+.icon{
+    font-size: 80px;
+    pointer-events: none;
+    user-select: none;
+}
+.option-text{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    pointer-events: none;
+    user-select: none;
+}
+.points{
+    background-color: #aaa;
+    display: flex;
+    justify-content:center;
+    font-size: 50px;
+    gap:30px;
+}
+.point{
+    margin: 5px;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.text{
+    font-size: 40px;
+    line-height: 60px;
+    width: 800px;
+    flex-basis: 60px;
+    margin: 0px auto;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.result-text{
+    background-color: greenyellow;
+    margin-top: 20px;
+}
+.button{
+    margin: 0 10px;
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.none{
+    display: none;
+}
+.active{
+    transform: scale(1.1);
+    border: solid darkgreen 4px;
+}
+.red{
+    background-color: red;
+}
+.grey{
+    background-color: grey;
+}

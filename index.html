@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="title">rock-paper-scissors game!</h1>
+
+        <div class="points">
+            <div class="user"><i class="fa-solid fa-user"></i><span class="user-point  point"></span></div>
+            <div class="comp"><span class="comp-point point"></span><i class="fa-solid fa-computer"></i></div>
+        </div>
+
+        <div class="game">
+            <div data-option="rock" class="option">
+                <i class="icon fa-solid fa-hand-back-fist"></i>
+                <p class="option-text">rock</p>
+            </div>
+            <div data-option="paper" class="option">
+                <i class="icon fa-solid fa-hand"></i>
+                <p class="option-text">paper</p>
+            </div>
+            <div data-option="scissors" class="option">
+                <i class="icon fa-solid fa-hand-scissors"></i>
+                <p class="option-text">scissors</p>
+            </div>
+        </div>
+
+        <div class="result none">
+            <p class="result-text text"></p>
+            <p class="choices text"><span class="user-choice"></span> VS <span class="comp-choice"></span></p>
+            <div class="buttons">
+                <button class="button play-again">Play again!</button>
+                <button class="button restart">Restart</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
